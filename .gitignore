@@ -1,0 +1,33 @@
+# ========================
+# Ambientes Virtuais
+# ========================
+# Ignorar o ambiente virtual do Poetry
+.venv/
+
+# ========================
+# Caches do Python
+# ========================
+# Ignorar pastas de cache geradas pelo Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# Arquivos de Editor/IDE
+# ========================
+# Ignorar pasta de configurações do Visual Studio Code
+.vscode/
+
+# ========================
+# Arquivos de Sistema Operacional
+# ========================
+# Ignorar arquivos de sistema do macOS e Windows
+.DS_Store
+Thumbs.db
+
+# ========================
+# Arquivos de dependências (opcional, mas bom para Poetry)
+# ========================
+# O arquivo poetry.lock deve ser versionado, mas se quisesse ignorar:
+# poetry.lock
